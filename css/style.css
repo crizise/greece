@@ -1,0 +1,440 @@
+@font-face {
+	font-family:Merywether;
+	src:url(../fonts/Merriweather-Regular.ttf);
+}
+@font-face {
+	font-family: Merriwether Bold;
+	src:url(../fonts/Merriweather-Bold.ttf);
+}
+@font-face {
+	font-family:Lato Bold;
+	src:url(../fonts/Lato-Bold.ttf);
+}
+@font-face {
+	font-family:lato semibold;
+	src:url(../fonts/Lato-Semibold.ttf);
+}
+@font-face {
+	font-family:fontawesome;
+	src:url(../fonts/fontawesome-webfont.ttf);
+}
+a{
+	text-decoration: none;
+}
+.pb40{
+	padding-bottom: 40px;
+}
+.pt80{
+	padding-top: 78px;
+}
+.ptb40{
+	padding: 40px 0;
+}
+.ptb20{
+	padding: 20px 0;
+}
+
+.pt10{
+	padding-top:10px;
+}
+.bg-w{
+	background-color: #ffffff;
+}
+.bg-g{
+	background-color: #e1e0e0;
+}
+.r{
+	background-color: red;
+}
+.g{
+	background-color: green;
+}
+.b{
+	background-color: blue;
+}
+.g_blue{
+ 	color:#1289d5;
+}
+.mar20{
+	margin:20px 0;
+}
+.vcenter {
+  display: inline-block;
+  float: none;
+  vertical-align: middle;
+}
+.btn{
+	font-family: "lato semibold";
+	color:#ffffff;
+}
+.header{
+	padding-top: 10px;	
+}
+.logobar{
+	
+	display: inline;
+	font-family: "Merriwether Bold";
+	font-size: 24px;
+	color: #cccccc;
+	background-color: red;
+	
+}
+.logobar img{
+	height: 50px;
+}
+.navi {
+	font-family: "lato semibld";
+	line-height: 50px;
+	
+
+}
+.navi ul li{
+	list-style-type: none;
+	display: inline;
+	padding: 0 5px;
+
+}
+.navi ul li a{
+	color:#cccccc;
+	text-decoration: none;
+	font-size: 14px;
+}
+.navi ul li a:hover{
+	color: #7d7d7d;
+}
+.btn{
+	
+	display: inline-block;
+	background-color: #1289d5;
+	font-family: "lato semibold"; 
+	border-radius: 2px;
+}
+/* header end */
+.bg-offer{
+	padding: 0px;
+	width: 100%;
+	height: 790px;
+	background: url(../img/Santorini-Greece-91.jpg) no-repeat;
+	background-size: cover;
+	z-index: -1;
+}
+.layout_top{
+	
+	width: 100%;
+	height: 100%;
+	background: rgba(83, 162, 219, 0.5);
+	z-index: 100;
+}
+
+.offer{
+	margin-top: 20%;
+}
+.offer h4{
+	font-family: "lato semibold";
+	text-transform: uppercase;
+	color: #ffffff;
+	font-size: 18px;	
+}
+.offer h1{
+	font-family: "lato semibold";
+	text-transform: uppercase;
+	color: #12c1fc;
+	font-size: 70px;
+}
+.offer h2{
+	font-family: "lato semibold";
+	text-transform: uppercase;
+	color: #ffffff;
+	font-size: 40px;
+
+}
+.offer p{
+	padding: 20px 0;
+	font-family: "Merywether";
+	color: #ffffff;
+	font-size: 14px;
+
+}
+.offer .btn{
+	width: 150px;
+	height: 60px;
+	border: 1px solid #ffffff;
+	background-color: rgba(0,0,0,0.0);
+	font-family: "lato bold";
+	color: #ffffff;
+	text-transform: uppercase;
+}
+.offer .btn:hover{
+	background-color:rgba(0,0,0,0.5);
+	border-color: #777777; 
+}
+/* end of offer */
+.bg_curve{
+	
+	background: url(../img/section_bg.png) repeat-x;
+}
+.text_reservation{
+	padding: 20px 0;
+	font-family: "lato semibold";
+	color: #626161;
+	font-size: 28px;
+	text-transform: uppercase;
+
+}
+.form-control{
+	background-color: rgb(219,219,219);
+	color: #7d7d7d;
+	font-style: italic;
+}
+.paragr_image{
+	height: auto;
+	width: 70%;
+	
+	padding: 5px;
+	border: 2px solid #e1e0e0;
+}
+.pharag_text h2{
+	font-family: "lato bold";
+	color:#fdd687;
+	text-transform: uppercase;
+}
+.pharag_text {
+	font-family: "merriwether";
+	color: #626161;
+	font-size: 14px;
+
+}
+.separator{
+	display: inline;
+}
+.separator img{
+	display: inline;
+	width: 80px;
+	height: auto;
+}
+.destination{
+
+}
+
+.block-img{
+	display: inline-block;
+	width: 300px;
+	height: 220px;
+	background: url(../img/images.jpg) no-repeat center;
+	background-size: cover;
+	border: 1px solid #7d7d7d;
+	border-radius: 2px;
+}
+.block-img1{
+	display: inline-block;
+	width: 300px;
+	height: 220px;
+	background: url(../img/athenian-acropolis-10.jpg) no-repeat center;
+	background-size: cover;
+	border: 1px solid #7d7d7d;
+	border-radius: 2px;
+}
+.block-img2{
+	display: inline-block;
+	width: 300px;
+	height: 220px;
+	background: url(../img/d3909.jpg) no-repeat center;
+	background-size: cover;
+	border: 1px solid #7d7d7d;
+	border-radius: 2px;
+}
+.block-img3{
+	display: inline-block;
+	width: 300px;
+	height: 220px;
+	background: url(../img/images1.jpg) no-repeat center;
+	background-size: cover;
+	border: 1px solid #7d7d7d;
+	border-radius: 2px;
+}
+.block-img4{
+	display: inline-block;
+	width: 300px;
+	height: 220px;
+	background: url(../img/greek-theater-arena-11509722.jpg) no-repeat center;
+	background-size: cover;
+	border: 1px solid #7d7d7d;
+	border-radius: 2px;
+}
+.block-img5{
+	display: inline-block;
+	width: 300px;
+	height: 220px;
+	background: url(../img/d3909.jpg) no-repeat center;
+	background-size: cover;
+	border: 1px solid #7d7d7d;
+	border-radius: 2px;
+}
+.block-button{
+	display: none;
+	width: 100%;
+	height: 100%;
+	background:rgba(83, 162, 219, 0.7);
+
+	
+}
+.block-button .btn{
+	margin-top: 110px;
+	width: 150px;
+	height: 60px;
+	border: 1px solid #ffffff;
+	background-color: rgba(0,0,0,0.0);
+	font-family: "lato bold";
+	color: #ffffff;
+	text-transform: uppercase;
+}
+.block-img:hover .block-button{
+	display: block;
+} 
+.block-img1:hover .block-button{
+	display: block;
+} 
+.block-img2:hover .block-button{
+	display: block;
+} 
+.block-img3:hover .block-button{
+	display: block;
+} 
+.block-img4:hover .block-button{
+	display: block;
+}
+.block-img5:hover .block-button{
+	display: block;
+} 
+.destination h2{
+	padding: 20px 0;
+	font-family: "lato bold";
+	color:#fdd687;
+	text-transform: uppercase;
+}
+.destination p{
+	color: #626161;
+	padding: 20px 0;
+	font-family: "Merriwether";
+
+}
+.destination img{
+	display: block;
+	width: 90%;
+	height: 200px;
+	
+	border-radius: 2px;
+	padding: 5px;
+	
+	
+}
+
+.destination img:hover{
+	
+	background-color: rgba(83, 162, 219, 0.9);
+	z-index: 100;
+
+}
+.destination a{
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.packages h2{
+	padding: 20px 0;
+	font-family: "lato bold";
+	color:#fdd687;
+	text-transform: uppercase;
+}
+.packages p{
+	padding: 5px 0;
+	font-family: "Merriwether";
+	color: #626161;
+}
+.pckg h4{
+	padding: 20px 0;
+	font-family: "lato bold";
+	color:#fdd687;
+	text-transform: uppercase;
+}
+.pckg img{
+	padding-top: 14px; 
+	width: 40px;
+}
+.packages h6{
+	font-family: "lato bold";
+	color:#81bde3;
+	text-transform: uppercase;
+}
+.bg_bott_offer{
+	width: 100%;
+	height: 500px;
+	background: url(../img/Greece-Travel-Photography-39.jpg) no-repeat;
+	background-size: cover;
+	background-position: center ;
+}
+.container-fluid{
+	padding: 0;
+
+}
+.bg-g-offer{
+	padding:50px 20px;
+	width: 50%;
+	height: 500px;
+	background-color: rgba(225, 224, 224, 0.9);
+	float: right;
+}
+
+.bg-g-offer h2{
+	font-family: "lato bold";
+	text-transform: uppercase;
+	color:#1289d5;
+}
+.bg-g-offer p{
+	font-family: "Marriwether";
+	padding: 40px 0;
+}
+.subscribe h2{
+	font-family: "lato bold";
+	color:#1289d5;
+}
+.subscribe p{
+	font-family: "Marriwether";
+}
+.contacts h4{
+	color:#7d7d7d;
+	font-family: "lato bold";
+	text-transform: uppercase;
+}	
+.contacts a{
+	text-decoration: none;
+}
+.contacts p{
+	font-family: "Marriwether";
+}
+footer {
+	font-family:"lato bold";
+	padding: 30px 0;
+	background-color: #292828;
+	line-height: 40px;
+}
+footer p{
+	color:#a1a0a0;
+}
+footer ul li{
+	list-style:none;
+	display: inline;
+	padding-right: 15px;
+	color:#fcd890;
+}
+.soc-box{
+	display: inline-block;
+	width: 40px;
+	background-color:#7d7d7d;
+	border-radius: 50%;
+}
+.soc-box a{
+	color:#292828;
+}
+footer a:hover{
+	text-decoration: none;
+}

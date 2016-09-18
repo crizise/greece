@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Discover Greece</title>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	 <script type="text/javascript" src="js/moment.min.js"></script>
+	 <script type="text/javascript" src="js/bootstrap-datetimepicker.min.js"></script>
+    <link rel="shortcut icon" href="img/favicon.ico">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css"/>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="logobar">
+						<p>Discover <img src="img/logo.png" alt="logo"> Greece</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="navi text-right">
+						<ul>
+							<li><a href="#">HOME</a></li>
+							<li><a href="#">DESTINATION</a></li>
+							<li><a href="#">BLOG</a></li>
+							<li><a href="#">CONTACT</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-2 pt10">
+					<button type="button" class="btn btn-primary">BOOK NOW</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container bg-offer">
+		<div class="layout_top">
+			
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="offer">
+							<h4>best offer</h4>
+							<h1>25% off</h1>		
+							<h2>santorini city tour</h2>		
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus aliqu 	id reiciendis voluptates accusamus!<br>Delectus aliqu 	id reiciendis voluptates accusamus!</p>
+							<button class="btn">see more</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid bg_curve">
+		<div class="container">
+			<div class="row text-center text_reservation">
+				<h4>make a reservation</h4>
+			</div>
+			<div class="pb40">
+         <form action="check.php" method="POST">
+                     <div class="col-md-3">
+                        <select class="form-control" id="sel1" required>
+                           <option disabled selected hidden >Select Destination</option>
+                           <option id="santorini">SANTORINI</option>
+                           <option id="athens">SCROPOLIS OF ATHENS</option>
+                           <option id="kastoria">KASTORIA</option>
+                           <option id="myconos">MYCONOS ISLANDS</option>
+                           <option id="aphaia">TEMPLE OF APHAIA</option>
+                           <option id="south_kastoria">SOUTH KASTORIA</option>
+                       </select>
+                     </div>
+                     <div class='col-md-2'>
+                        <div class="form-group">
+                           <div class='input-group date' id='datetimepicker6'>
+                              <input type='text' class="form-control" placeholder="From" />
+                              <span class="input-group-addon">
+                              <span class="glyphicon glyphicon-calendar"></span>
+                              </span>
+                           </div>
+                        </div>
+                     </div>
+                     <div class='col-md-2'>
+                        <div class="form-group">
+                           <div class='input-group date' id='datetimepicker7'>
+                              <input type='text' class="form-control" placeholder="To" />
+                              <span class="input-group-addon">
+                              <span class="glyphicon glyphicon-calendar"></span>
+                              </span>
+                           </div>
+                        </div>
+                     </div>
+                  <div class="col-md-2">
+                     <select class="form-control" id="sel2">
+                        <option disabled selected hidden >Guests</option>
+                        <option id="one">One</option>
+                        <option id="two">Two</option>
+                        <optiodiv id="three">Three</option>
+                        <option id="four">Four</option>
+                     </select>
+                  </div>
+                  <button type="submit" class="btn btn-info">CHECK AVAILABLE</button>
+                 </form>
+               </div>
+		</div>
+	</div>
+   <div class="container">
+      <div class="row mar20">
+         <div class="col-md-4 text-right">
+         
+            <img src="img/athenian-acropolis-10.jpg" alt="acropolis" class="paragr_image">
+         
+                      
+         </div>
+         <div class="col-md-8">
+            <div class="pharag_text">
+               <h2>about us</h2>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto a rerum cupiditate. Eaque exercitationem laborum tenetur ut itaque voluptatem assumenda quaerat quos deleniti magnam, enim, qui sit facere odio praesentium. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia quibusdam non, voluptate est sed facilis earum, quos quas reiciendis nobis, temporibus explicabo eius voluptatibus ullam aut recusandae excepturi ducimus eos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam repellendus, voluptatibus eos labore. Aliquid distinctio dicta sunt blanditiis, voluptatum praesentium inventore quasi! Animi sed minima similique, itaque iure qui perspiciatis.</p>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto a rerum cupiditate. Eaque exercitationem laborum tenetur ut itaque voluptatem assumenda quaerat quos deleniti magnam, enim, qui sit facere odio praesentium. Quibusdam repellendus, voluptatibus eos labore. Aliquid distinctio dicta sunt blanditiis, voluptatum praesentium inventore quasi! Animi sed minima similique, itaque iure qui perspiciatis.</p>
+            </div>
+            <div class="text-right">
+            <button class="btn btn-info">READ MORE</button>
+            </div>
+            
+         </div>
+      </div>
+   </div>
+   <div class="container">
+      <div class="row text-center">
+         <div class="separator"><hr><img src="img/logo.png" alt="">
+         <hr width="300"></div>
+      </div>
+   </div>
+   <div class="container destination text-center">
+      <h2>top destiantion</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab quo, delectus ea exercitationem eligendi beatae aliquid aperiam rerum?</p>
+      <div class="row">
+         <div class="col-md-4 text-center">
+            <div class="block-img">
+               <div class="block-button">
+                  <button class="btn">SEE MORE</button>
+               </div>
+            </div>
+            <a href="#"><h4>santorini</h4></a>
+         </div>
+         <div class="col-md-4 text-center">
+             <div class="block-img1">
+               <div class="block-button">
+                  <button class="btn">SEE MORE</button>
+               </div>
+            </div>  
+            <a href="#"><h4>acropolis of athens</h4></a>
+         </div>
+         <div class="col-md-4 text-center">
+             <div class="block-img2">
+               <div class="block-button">
+                  <button class="btn">SEE MORE</button>
+               </div>
+            </div>
+            <a href="#"><h4>kastoria</h4></a>
+         </div>
+      </div>
+      <div class="row">
+         <div class="col-md-4 text-center">
+             <div class="block-img3">
+               <div class="block-button">
+                  <button class="btn">SEE MORE</button>
+               </div>
+            </div>
+               <a href="#"><h4>mykonos island</h4></a>
+            </a></div>
+         <div class="col-md-4 text-center">
+             <div class="block-img4">
+               <div class="block-button">
+                  <button class="btn">SEE MORE</button>
+               </div>
+            </div>
+               <a href="#"><h4>temple of aphaia</h4></a>
+            </a></div>
+         <div class="col-md-4 text-center">
+             <div class="block-img5">
+               <div class="block-button">
+                  <button class="btn">SEE MORE</button>
+               </div>
+            </div>
+               <a href="#"><h4>south castoria</h4></a>
+            </a></div>
+      </div>
+      <div class="ptb40"><button class="btn btn-succes">SEE ALL DESTINATION</button></div>
+   </div>
+   <div class="container-fluid bg_curve">
+      <div class="container packages">
+         <div class="row text-center">
+            <h2>packages</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum eveniet error omnis laboriosam quae ipsum inventore aperiam porro adipisci quidem.</p>
+         </div>
+         <div class="row text-center pckg pb40">
+            <div class="col-md-2 bg-w">
+               <img src="img/Tourism icon (127).png" alt="tourism">
+               <h4>culture trip</h4>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, tenetur.</p>
+            </div>
+            <div class="col-md-8 bg-g ptb20">
+               <div class="col-md-4">
+                  <h6>place 1</h6>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                  <p><i class="glyphicon glyphicon-time"></i> 60 min</p>
+                  <p><i class="glyphicon glyphicon-map-marker
+"></i> Santorini</p>   
+
+               </div>
+               <div class="col-md-4 ">
+                  <h6>place 2</h6>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                  <p><i class="glyphicon glyphicon-time"></i> 180 min</p>
+                  <p><i class="glyphicon glyphicon-map-marker
+"></i> Sparta</p>                  
+               </div>
+               <div class="col-md-4">
+                  <h6>place 3</h6>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                  <p><i class="glyphicon glyphicon-time"></i> 180 min</p>
+                  <p><i class="glyphicon glyphicon-map-marker
+"></i> Mykonos</p>                  
+               </div>
+            </div>
+            <div class="col-md-2 bg-w pt20 pt80 ">
+               <button class="btn btn-succes btn-lrg">book it now</button><br>
+               <p>or</p>
+               <br>
+               <a href="#"><p>Customize it</p></a> 
+            </div>
+         </div>
+         <div class="row text-center pckg pb40">
+            <div class="col-md-2 bg-w">
+               <img src="img/Tourism icon (1414).png" alt="tourism">
+               <h4>water sports</h4>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, tenetur.</p>
+            </div>
+            <div class="col-md-8 bg-g ptb20">
+               <div class="col-md-4">
+                  <h6>place 1</h6>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                  <p><i class="glyphicon glyphicon-time"></i> 180 min</p>
+                  <p><i class="glyphicon glyphicon-map-marker
+                     "></i> Mykonos</p>   
+
+               </div>
+               <div class="col-md-4 ">
+                  <h6>place 2</h6>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                  <p><i class="glyphicon glyphicon-time"></i> 180 min</p>
+                  <p><i class="glyphicon glyphicon-map-marker
+                                    "></i> Mykonos</p>                  
+               </div>
+               <div class="col-md-4">
+                  <h6>place 3</h6>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                  <p><i class="glyphicon glyphicon-time"></i> 180 min</p>
+                  <p class="glyphicon glyphicon-map-marker
+"> Mykonos</p>                  
+               </div>
+            </div>
+            <div class="col-md-2 bg-w pt20 pt80 ">
+               <button class="btn btn-succes btn-lrg">book it now</button><br>
+               <p>or</p>
+               <br>
+               <a href="#"><p>Customize it</p></a> 
+            </div>
+         </div>
+         <div class="row text-center pckg pb40">
+            <div class="col-md-2 bg-w ">
+               
+               <img src="img/Tourism icon (21).png" alt="tourism">
+               <h4>gastronomical</h4>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, tenetur.</p>
+            </div>
+            <div class="col-md-8 bg-g ptb20 bg-g">
+               <div class="col-md-4">
+                  <h6>place 1</h6>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                  <p><i class="glyphicon glyphicon-time"></i> 80 min</p>
+                  <p><i class="glyphicon glyphicon-map-marker
+"></i> Crete</p>    
+
+               </div>
+               <div class="col-md-4 ">
+                  <h6>place 2</h6>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                  <p><i class="glyphicon glyphicon-time"></i> 90 min</p>
+                  <p><i class="glyphicon glyphicon-map-marker
+"></i> Sparta</p>                  
+               </div>
+               <div class="col-md-4">
+                  <h6>place 3</h6>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                  <p><i class="glyphicon glyphicon-time"></i> 110 min</p>
+                  <p><i class="glyphicon glyphicon-map-marker
+"></i> Athens</p>                  
+               </div>
+            </div>
+            <div class="col-md-2 bg-w pt20 pt80">
+               <button class="btn btn-succes btn-lrg">book it now</button><br>
+               <p>or</p>
+               <br>
+               <a href="#"><p>Customize it</p></a> 
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="container">
+    <div class="bg_bott_offer">
+       
+          <div class="bg-g-offer">
+             <div class="text-center">
+                <h2>exclusive tour to mykonos island</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem obcaecati autem delectus debitis quas excepturi explicabo dolores error quo quidem est laudantium inventore et veritatis repellat eveniet ducimus soluta omnis dignissimos suscipit fuga mollitia quisquam, quos, nobis fugit. Esse earum exercitationem nihil sunt ullam id iure optio suscipit voluptatum, quo.</p>
+                <button class="btn btn-succes">BOOK NOW</button>
+             </div>
+          </div>
+      
+    </div>
+   </div>
+   <div class="container subscribe text-center">
+      <h2>Not ready yet? Then join our newsletter</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione rerum, fugit impedit quos?</p>
+      <form class="form-inline">
+        <div class="form-group ptb40">
+          <input type="email" class="form-control" id="email" placeholder="Enter your email">
+          <button type="submit" class="btn btn-succes">Subscribe</button>
+        </div>
+      </form>
+      <hr>
+      <img src="img/logo.png" alt="logo" class="ptb40">
+   </div>
+   <div class="container-fluid bg_curve">
+      <div class="container">
+         <div class="row contacts">
+            <div class="col-md-4">
+               <h4>Contacts</h4>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, a? Lorem ipsum dolor sit amet.</p>
+               <p><span class="glyphicon glyphicon-earphone g_blue"></span> 30 2825601239</p>
+               <a href="mailto:info@discovergreece.com"><p><span class="glyphicon glyphicon-envelope g_blue"></span> info@discovergreece.com</p></a>
+               <p><span class="glyphicon glyphicon-map-marker g_blue"></span> Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="col-md-4">
+               <h4>Recent tweets</h4>
+               <p><span class="glyphicon glyphicon-fire g_blue"></span><a href="#"> graery@</a> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe?</p>
+               <p><span class="glyphicon glyphicon-fire g_blue"></span><a href="#"> coco87@</a> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe? Lorem ipsum dolor.</p>
+               <p><span class="glyphicon glyphicon-fire g_blue"> </span><a href="#"> loreallisimio@</a> Lorem ipsum dolor sit amet, consectetur.</p>
+            </div>
+            <div class="col-md-4">
+               <h4>Latest posts</h4>
+               <p><span class="glyphicon glyphicon-comment g_blue"></span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni ex, sed vel et, amet placeat.<a href="#">Read more...</a></p>
+               <p><span class="glyphicon glyphicon-comment g_blue"></span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus labore abore error dolorem, architecto ipsa quaerat.<a href="#">Read more...</a></p>
+               <p><span class="glyphicon glyphicon-comment g_blue"></span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque excepturi quo, eum voluptatum maiores, recusandae!<a href="#">Read more...</a></p>
+            </div>
+         </div>
+      </div>
+   </div>
+   <footer>
+      <div class="container-fluid">
+         <div class="container">
+            <div class="row text-center">
+               <div class="col-md-4">
+                  <p>Copyright © 2016 Discover Greece. All rights reserved.</p>
+               </div>
+               <div class="col-md-4 text-center">
+                  <div class="soc-box"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+</div>
+                  <div class="soc-box"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+</div>
+                  <div class="soc-box"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+</div>
+               </div>
+               <div class="col-md-4">
+                  <ul>
+                     <a href="#"><li>Privacy&terms</li></a>
+                     <a href="#"><li>FAQs</li></a>
+                     <a href="#"><li>Legal</li></a>
+                     <a href="#"><li>Contact</li></a>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+<script type="text/javascript">
+    $(function () {
+        $('#datetimepicker6').datetimepicker();
+        $('#datetimepicker7').datetimepicker({
+            useCurrent: false //Important! See issue #1075
+        });
+        $("#datetimepicker6").on("dp.change", function (e) {
+            $('#datetimepicker7').data("DateTimePicker").minDate(e.date);
+        });
+        $("#datetimepicker7").on("dp.change", function (e) {
+            $('#datetimepicker6').data("DateTimePicker").maxDate(e.date);
+        });
+    });
+</script>
+</body>
+</html>
